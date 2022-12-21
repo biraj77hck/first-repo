@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Rubik+Gemstones&display=swap");
+
+/* Set the box-sizing for all elements to border-box */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 50%;
+  background-color: black;
+  padding: 20px;
+}
+
+.right-column {
+  width: 50%;
+  padding: 20px;
+  background-color: orange;
+}
+
+/* 
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait 
+
+*/
+
+@media screen and (max-width: 1024px) {
+  .left-column {
+    background-color: red;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-column {
+    background-color: green;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .left-column {
+    background-color: orange;
+  }
+
+  .right-column {
+    background-color: black;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
+/*  */
