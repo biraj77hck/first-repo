@@ -15,6 +15,36 @@
     <h6>This are some of the images that i have taken.hope you like it</h6>
     <div class="My Photograph">
         <div class="My gallery">
+    <img src="rara1 (1).jpg"
+    alt="Click Here"
+    onclick="Myimagefunction(this)">
+
+    <img src="rara2.jpg"
+    alt="Click Here"
+    onclick="Myimagefunction(this)">
+
+    <img src="rara3.jpg"
+    alt="Click Here"
+    onclick="Myimagefunction(this)">
+
+    <img src="rara4.jpg"
+    alt="Click Here"
+    onclick="Myimagefunction(this)">
+
+    </div>
+
+    <div class="imagecontainer">
+        <img id="img-box" src="rara4.jpg"
+        alt="click here">
+
+</div>
+    </div>
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
             
 </body>
 </html>
