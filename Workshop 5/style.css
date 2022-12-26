@@ -63,3 +63,31 @@ body{
     color: orange;
   }
   
+  @media screen and (max-width:1024){
+    .button a{
+      font-size: 16px;
+    }
+  }
+
+  @media screen and(max-width:768px){
+    .content-wrapper{
+      padding-bottom: 50px;
+    }
+  }
+
+  .content-wrapper,
+  figure{
+    width: 100%;
+  }
+
+  figure{
+    height: 300px;
+  }
+  @media screen and (max-width:420px){
+    .button a{
+      text-align: center;
+    }
+  }
+    
+
+  
