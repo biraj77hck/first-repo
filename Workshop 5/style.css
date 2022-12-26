@@ -15,12 +15,11 @@ body{
     flex-wrap: wrap;
   }
 
-  .content.wrapper {
+  .content-wrapper {
     width: 50%;
     background-color: rgb(12, 59, 46);
     padding: 5%;
     color: #ffffff;
-    height: 100vh;
   }
 
   h1 {
