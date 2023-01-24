@@ -44,7 +44,7 @@ sleep(); */
 /*if we put let age variable inside a function it is local variable,
 if we put let age variable on top then it is global variable*/
 
-document.getElementById("myBtn").onclick=function(){
+/*document.getElementById("myBtn").onclick=function(){
     let radius=document.getElementById("myNumber").value;
     console.log(radius);
     const PI=3.14;
@@ -52,7 +52,7 @@ document.getElementById("myBtn").onclick=function(){
    //document.getElementById("circumference").innerHTML=circumference;//
    document.getElementById("circumference").append(circumference);
 }
-
+*/
 //make a form of username (hello,username)//
   
 
